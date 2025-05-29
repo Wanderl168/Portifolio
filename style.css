@@ -1,0 +1,207 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    
+}
+
+
+body{
+    background-color: blue;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #00ff08ab;
+    transform: scale(1.05);
+}
+
+
+/* ESTILO DO CABEÇALHO */
+.interface {
+    display: flex;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface{
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    margin-left: 1px;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08ab;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+header a{
+    color: #201f1f;
+    font-size: 23px;
+    text-decoration: none;
+    display: inline;
+    padding: 0 10px;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.interface {
+    
+}
+
+.pessoa {
+    
+}
+
+
+
+
+
+.Pessoa {
+    
+    display: flex;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30PX;
+    }
+}
+
+
+h1 {
+    font-size: 42px;
+    width: 800px;
+    margin: 30px 0 0 70px;
+    color: #ffff;
+}
+
+p {
+    font-size: 30px;
+    margin-left: 70px;
+    width: 940px;
+    margin-top: 40px;
+    color: #ffff;
+}
+
+.convite button {
+    margin-left: 70px;
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08ab;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.convite button {
+    transition: .2s;
+    box-shadow: 0px 0px 8px;
+}
+
+.convite button:hover {
+    box-shadow: 0px 0px 8px #00ff08ab;
+    transform: scale(1.05); 
+}
+
+.mudar{
+    margin-left: 70px;
+}
+
+h2 {
+    font-size: 33px;
+    margin-top: 50px;
+    color: #ffff;
+    text-align: center;
+}
+
+span {
+    color: #00ff08ab;
+    font-size: 33px;
+}
+
+h3 {
+    margin: 30px 0 0 70px;
+    margin-bottom: 30px;
+    color: #ffff;
+}
+
+h4 {
+    color: #ffff;
+    margin-left: 70px;
+    font-size: 33px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img-sobre img {
+    margin-left: 70px;
+}
+
+h5 {
+    color: #ffff;
+    margin-left: 360px;
+    margin-top: -300px;
+    width: 860px;
+}
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00ff08ab;
+    margin-left: 70px;
+    font-size: 22px;
+    box-shadow: 0px 0px 8px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-social button:hover {
+    box-shadow: 0px 0px 8px #00ff08ab;
+    transform: scale(1.05);
+}
+
+
